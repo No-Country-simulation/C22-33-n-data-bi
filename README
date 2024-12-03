@@ -1,10 +1,33 @@
-Horario de Reuniones 20:30 (GTM-3)
+DESCRIPCIÓN DEL PROYECTO:
+Se simula la contratación de determinada empresa para elaborar un sistema de detección de transacciones fraudulentas.
+Se obtiene la siguiente Base de Datos de Kaggle: https://www.kaggle.com/datasets/kartik2112/fraud-detection/data?select=fraudTest.csv 
+En dicha base de datos se plasman más de 1 millón de transacciones de 1000 clientes entre 800 comerciantes que van desde el 1/ENE/2019 al 31/DIC/2020.
+Con dicha BD se pretende encontrár un patrón entre las transacciones fraudulentas y brindar herramientas a la empresa para la temprana detección de fraude.
 
-ROLES:
-- Data Analytics: Diego, Renzo.
-- Analista de BI: Diego, Renzo.
-- Data Engineer: Patricio.
-- ETL Developer: Patricio.
-- Data Scientist: Francisco.
-- Machine Learning Developer: Carlos.
-- Project Manager: Francisco.
+TECNOLOGÍAS USADAS:
+- Notion: https://renzobozzini.notion.site/C22-EQUIPO-33-NO-COUNTRY-1394789be60b801a9833e533c8255194
+- Colab: https://colab.research.google.com/drive/1HWev6KX_jdCSF8OVnEVwP1Zwo51j5JOp?usp=sharing 
+- Power BI y Looker.
+- Python (Pandas, Matplotlib y Seaborn).
+
+INTEGRANTES DEL GRUPO:
+- Renzo Bozzini (Data Analyst).
+- Diego Borges Salces (Data Analyst).
+
+PASOS REALIZADOS:
+- Se particiona la Base de Datos adquirida para evitar limitaciones producto del peso del archivo CSV (se trabajará con las primeras 150 mil filas). 
+- Visualización en general de los datos a través de Colab y Power BI / Looker.
+- Se normaliza la base de datos, eliminando nulos y cambiando el tipo de datos a determinadas columnas. 
+- Se ejecuta estadísticas básicas para columnas numéricas. Si nos centramos en los montos de las transacciones se obtiene:
+Transacción min.: 1 USD.
+Transacción máx.: 12788.07 USD.
+La desviación estándar dió 155,25 USD que es significativamente mayor que el promedio de 71,58 USD. Esto sugiere una alta variabilidad en los montos de las transacciones, lo que significa que hay transacciones con montos muy diferentes entre sí.
+Se contabilizan 148.623 operaciones NO fraudulentas y 1.377 fraudulentas. 
+- Se obtiene matriz de correlación, dando como resultado una leve correlación entre el monto de la operación y la variable is_fraud.
+- Se confecciona panel de control en función de los datos obtenidos.
+
+CONCLUSIONES:
+
+
+
+
