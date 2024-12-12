@@ -1,14 +1,14 @@
 DESCRIPCIÓN DEL PROYECTO:
-Se simula la contratación de determinada empresa para elaborar un sistema de detección de transacciones fraudulentas.
+Se simula la contratación de determinada empresa para elaborar un sistema de detección de transacciones fraudulentas y la confección de un panel de control de dichas tranasacciones para análisis interno de la empresa.
 Se obtiene la siguiente Base de Datos de Kaggle: https://www.kaggle.com/datasets/kartik2112/fraud-detection/data?select=fraudTest.csv 
 En dicha base de datos se plasman más de 1 millón de transacciones de 1000 clientes entre 800 comerciantes que van desde el 1/ENE/2019 al 31/DIC/2020.
 Con dicha BD se pretende encontrár un patrón entre las transacciones fraudulentas y brindar herramientas a la empresa para la temprana detección de fraude.
 
 TECNOLOGÍAS USADAS:
 - Notion: https://renzobozzini.notion.site/C22-EQUIPO-33-NO-COUNTRY-1394789be60b801a9833e533c8255194
-- Colab: https://colab.research.google.com/drive/1HWev6KX_jdCSF8OVnEVwP1Zwo51j5JOp?usp=sharing 
+- Colab: https://colab.research.google.com/drive/1bqZxEhubej1owZA1WXY6I6O045-H-ehp?usp=sharing
 - Power BI.
-- Python (Pandas, Matplotlib y Seaborn).
+- Python (Pandas, Matplotlib, Numpy y Seaborn).
 
 INTEGRANTES DEL GRUPO:
 - Renzo Bozzini (Data Analyst).
