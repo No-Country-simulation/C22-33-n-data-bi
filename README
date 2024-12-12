@@ -7,7 +7,7 @@ Con dicha BD se pretende encontrár un patrón entre las transacciones fraudulen
 TECNOLOGÍAS USADAS:
 - Notion: https://renzobozzini.notion.site/C22-EQUIPO-33-NO-COUNTRY-1394789be60b801a9833e533c8255194
 - Colab: https://colab.research.google.com/drive/1bqZxEhubej1owZA1WXY6I6O045-H-ehp?usp=sharing
-- Power BI.
+- Power BI: https://app.powerbi.com/reportEmbed?reportId=87180aec-bbf3-4545-ab35-b81c32491bc9&autoAuth=true&ctid=eabcf7a8-6d9c-46eb-af96-ae5a5a28df87
 - Python (Pandas, Matplotlib, Numpy y Seaborn).
 
 INTEGRANTES DEL GRUPO:
@@ -15,7 +15,7 @@ INTEGRANTES DEL GRUPO:
 - Diego Borges Salces (Data Analyst).
 
 PASOS REALIZADOS:
-- Se particiona la Base de Datos adquirida para evitar limitaciones producto del peso del archivo CSV (se trabajará con las primeras 150 mil filas). 
+- Se particiona la Base de Datos adquirida para evitar limitaciones producto del peso del archivo CSV (se trabajará con las primeras 50 mil filas). 
 - Visualización en general de los datos a través de Colab y Power BI / Looker.
 - Se normaliza la base de datos, eliminando nulos y cambiando el tipo de datos a determinadas columnas. 
 - Se ejecuta estadísticas básicas para columnas numéricas. Si nos centramos en los montos de las transacciones se obtiene:
@@ -25,8 +25,6 @@ La desviación estándar dió 155,25 USD que es significativamente mayor que el 
 Se contabilizan 148.623 operaciones NO fraudulentas y 1.377 fraudulentas. 
 - Se obtiene matriz de correlación, dando como resultado una leve correlación entre el monto de la operación y la variable is_fraud.
 - Se confecciona panel de control en función de los datos obtenidos.
-
-CONCLUSIONES:
 
 
 
